@@ -41,7 +41,7 @@ var AUTOPREFIXER_BROWSERS = [                 // https://github.com/ai/autoprefi
 ];
 
 var src = {};
-var watch = false;
+var watch = true;
 var pkgs = (function() {
   var pkgs = {};
   var map = function(source) {
